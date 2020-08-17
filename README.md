@@ -34,7 +34,7 @@ LIMITATIONS OF THIS DATA/APPROACH:
   5) Note that NTEE codes as shown in the BMF are assigned to grantmakers and grantees so may not be completely accurate. However, this work aligns with the BMF so if one has methods for reclassifying organizations, that could easily be applied to this data.
 
 
-COLUMNS DESCRIPTIONS FOR CSV FILES:
+COLUMN DESCRIPTIONS FOR CSV FILES:
   1) grantorName - Name of grantor from 990PF XML
   2) grantorEIN - EIN of grantor from 990PF XML
   3) grantorNTEE - NTEE of grantor from BMF
