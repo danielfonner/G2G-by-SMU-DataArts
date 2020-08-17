@@ -22,7 +22,7 @@ WHAT THE PYTHON SCRIPT DOES GENERALLY:
   4) Append grantee EIN and NTEE data to each grant using the BMF
   5) Append grantor NTEE to each grant using the BMF
 
-To learn more about the string-matching method, see: https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/
+To learn more about the string-matching method, see: https://chairnerd.seatgeek.com/fuzzywuzzy-fuzzy-string-matching-in-python/ This code currently uses a score threshoold of 80 for matches.
 
 LIMITATIONS OF THIS DATA/APPROACH:
   1) Only grant data available is from tax-exempt entities that have e-filed their 990PFs (grantee information from the BMF is for all tax-exempt entities)
