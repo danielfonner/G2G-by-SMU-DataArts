@@ -34,7 +34,7 @@ LIMITATIONS OF THIS DATA/APPROACH:
   5) Note that NTEE codes as shown in the BMF are assigned to grantmakers and grantees so may not be completely accurate. However, this work aligns with the BMF so if one has methods for reclassifying organizations, that could easily be applied to this data.
 
 
-COLUMNS DESCRIPTIONS FOR CSVS
+COLUMNS DESCRIPTIONS FOR CSVS:
   1) grantorName - Name of grantor from 990PF XML
   2) grantorEIN - EIN of grantor from 990PF XML
   3) grantorNTEE - NTEE of grantor from BMF
@@ -53,7 +53,7 @@ COLUMNS DESCRIPTIONS FOR CSVS
   16) grantor_formatted_990_URL - URL to the grantor's formatted 990PF for the year grant was noted, link to ProPublica's Nonprofit Explorer
 
 
-NUMBER OF GRANTS FOUND IN EACH YEAR
+NUMBER OF GRANTS FOUND IN EACH YEAR:
   1) 2013:
   2) 2014: COMING SOON!
   3) 2015: COMING SOON!
@@ -65,4 +65,4 @@ NUMBER OF GRANTS FOUND IN EACH YEAR
   
   For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF.
   
-  Finally, we are currently working to develop a tool that will allow for easy exploration of this data rather than solely being in CSV format. More to come!
+  Finally, we are currently working on developing a tool that will allow for easy exploration of this data rather than solely being in CSV format. More to come!
