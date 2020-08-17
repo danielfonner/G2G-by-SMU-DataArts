@@ -1,4 +1,4 @@
-# G2G  - All-in-One 
+# G2G-SMUDA  - Grantor2Grantee - 1 year at a time
 
 
 # Prepared by Daniel F. Fonner, Associate Director for Research, SMU DataArts -- dfonner@smu.edu
