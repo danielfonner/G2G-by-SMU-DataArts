@@ -210,7 +210,7 @@ count = 0
 
 # Define function for fuzzy merge - Idea for function found here: https://stackoverflow.com/questions/13636848/is-it-possible-to-do-fuzzy-match-merge-with-python-pandas
 
-def fuzzy_merge(df_1, df_2, key1, key2, threshold=90, limit=1):
+def fuzzy_merge(df_1, df_2, key1, key2, threshold=80, limit=1):
     """
     :param df_1: the left table to join
     :param df_2: the right table to join
