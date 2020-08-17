@@ -65,4 +65,4 @@ NUMBER OF GRANTS FOUND IN EACH YEAR:
   
   For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF.
   
-  Finally, we are currently working on developing a tool that will allow for easy exploration of this data rather than solely being in CSV format. More to come!
+  Finally, we are currently working on developing a tool that will allow for easier exploration of this data rather than solely being in CSV format. More to come!
