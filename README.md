@@ -62,7 +62,7 @@ NUMBER OF GRANTS FOUND IN EACH YEAR:
   6) 2019: COMING SOON!
   7) 2020: COMING SOON! (note this is as of MM/DD/YYYY)
   
-  (Note that for submission years prior to 2014, the XML schema is a little different for 990PFs. I will create a new script for those older years soon.)
+  (Note that for submission years prior to 2014, the XML tags are a little different for 990PFs. I will create a new script for those older years soon.)
   
   For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF.
   
