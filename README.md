@@ -7,7 +7,7 @@ In 2016, the IRS partnered with Amazon Web Services (AWS) to make all e-filed 99
 
 
 
-(Side Note on E-filed 990s: To date, most tax exempt organizations have not been required to e-file their 990s. With passage of the Taxpayers First Act in 2019, all tax-exempt entities will have to e-file their 990s for tax years beginning after July 1, 2019 with the exception of 990EZ filers who have an additonal year before the requirement must be met. I will note in the limitations below that the grant data extracted in this repository is limited to 990PF filers who have e-filed their 990s. Going forward, the grant data will be more complete as all tax exempt organizations are required to e-file. <https://www.irs.gov/newsroom/irs-recent-legislation-requires-tax-exempt-organizations-to-e-file-forms>)
+(Side note on E-filed 990s: To date, most tax exempt organizations have not been required to e-file their 990s. With passage of the Taxpayers First Act in 2019, all tax-exempt entities will have to e-file their 990s for tax years beginning after July 1, 2019 with the exception of 990EZ filers who have an additonal year before the requirement must be met. I will note in the limitations below that the grant data extracted in this repository is limited to 990PF filers who have e-filed their 990s. Going forward, the grant data will be more complete as all tax exempt organizations are required to e-file. <https://www.irs.gov/newsroom/irs-recent-legislation-requires-tax-exempt-organizations-to-e-file-forms>)
 
 You can read more about the AWS data here: https://docs.opendata.aws/irs-990/readme.html
 
@@ -17,7 +17,7 @@ The Python code in this repository creates a CSV for all grants listed on e-file
 
 WHAT THE PYTHON SCRIPT DOES GENERALLY:
   1) Download IRS Business Master File (BMF) and AWS Index Files
-  2) Using the Index files, extract grant data from 990PFs part XV for both grantee and approved for future grants
+  2) Using the Index files, extract grant data from 990PFs part XV for both granted and approved for future grants
   3) Match grants to grantees using a string-matching method (fuzzywuzzy), also requiring matches to have the same zip code
   4) Append grantee EIN and NTEE data to each grant using the BMF
   5) Append grantor NTEE to each grant using the BMF
