@@ -27,8 +27,8 @@ import urllib.request
 
 print("Start part 1 - download index and bmf files")
 
-# Save index files - Change year at end of URL for different indexes. 2011 is the earliest available.  Note that one could set up argparse to put the year as as input for running the script.
-urllib.request.urlretrieve('https://s3.amazonaws.com/irs-form-990/index_2011.csv', 'index_data.csv')
+# Save index files - Change year at end of URL for different indexes. 2013 is generally the earliest available.  Note that one could set up argparse to put the year as as input for running the script.
+urllib.request.urlretrieve('https://s3.amazonaws.com/irs-form-990/index_2013.csv', 'index_data.csv')
 
 
 # Save BMF files and combine into one csv.  Using this BMF means that orgs who are no longer listed in the BMF may not get matches to Index files in the past when they might have existed. One method would be to use BMF files from the National Center for Charitable statistics for older years.
