@@ -1,4 +1,4 @@
-# G2G-SMUDA  - Grantor2Grantee - 1 year at a time
+# G2G-SMUDA  - Grantor2Grantee - 1 year at a time - 2015 to present XML tags
 
 
 # Prepared by Daniel F. Fonner, Associate Director for Research, SMU DataArts -- dfonner@smu.edu
