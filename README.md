@@ -3,7 +3,7 @@ Extracting grant data from e-filed 990PFs and connecting grants to the nonprofit
 
 Created by Daniel F. Fonner, Associate Director for Research, SMU DataArts (Southern Methodist University), dfonner@smu.edu, https://culturaldata.org/
 
-In 2016, the IRS partnered with Amazon Web Services (AWS) to make all e-filed 990s available as XML documents on AWS (generally 2013 to present). This development allows for large-scale analysis of the full text of 990s as opposed to the limited extracts produced by the IRS annually. One important aspect of machine-readable 990s is that we can extract grant data from 990PFs, where grantmakers list who they granted money to, for what purpose, and what amount. <https://aws.amazon.com/blogs/publicsector/irs-990-filing-data-now-available-as-an-aws-public-data-set/>
+In 2016, the IRS partnered with Amazon Web Services (AWS) to make all e-filed 990s available as XML documents on AWS (generally 2011 to present). This development allows for large-scale analysis of the full text of 990s as opposed to the limited extracts produced by the IRS annually. One important aspect of machine-readable 990s is that we can extract grant data from 990PFs, where grantmakers list who they granted money to, for what purpose, and what amount. <https://aws.amazon.com/blogs/publicsector/irs-990-filing-data-now-available-as-an-aws-public-data-set/>
 
 
 
@@ -54,14 +54,15 @@ COLUMNS DESCRIPTIONS FOR CSVS:
 
 
 NUMBER OF GRANTS FOUND IN EACH YEAR:
-  1) 2013:
-  2) 2014: COMING SOON!
-  3) 2015: COMING SOON!
-  4) 2016: COMING SOON!
-  5) 2017: COMING SOON!
+  1) 2014: 
+  2) 2015: COMING SOON!
+  3) 2016: COMING SOON!
+  4) 2017: COMING SOON!
   6) 2018: COMING SOON!
-  7) 2019: COMING SOON!
-  8) 2020: COMING SOON! (note this is as of MM/DD/YYYY)
+  6) 2019: COMING SOON!
+  7) 2020: COMING SOON! (note this is as of MM/DD/YYYY)
+  
+  (Note that for submission years prior to 2014, the XML schema is a little different for 990PFs. I will create a new script for those older years soon.)
   
   For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF.
   
