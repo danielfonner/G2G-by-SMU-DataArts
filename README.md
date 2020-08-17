@@ -55,13 +55,13 @@ COLUMNS DESCRIPTIONS FOR CSVS
 
 NUMBER OF GRANTS FOUND IN EACH YEAR
   1) 2013:
-  2) 2014:
-  3) 2015:
-  4) 2016:
-  5) 2017:
-  6) 2018:
-  7) 2019:
-  8) 2020: - note this is as of MM/DD/YYYY
+  2) 2014: COMING SOON!
+  3) 2015: COMING SOON!
+  4) 2016: COMING SOON!
+  5) 2017: COMING SOON!
+  6) 2018: COMING SOON!
+  7) 2019: COMING SOON!
+  8) 2020: COMING SOON! (note this is as of MM/DD/YYYY)
   
   For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF.
   
