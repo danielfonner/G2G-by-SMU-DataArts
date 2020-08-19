@@ -54,7 +54,7 @@ COLUMN DESCRIPTIONS FOR CSV FILES:
 
 
 NUMBER OF GRANTS FOUND IN EACH YEAR:
-  1) 2015: 
+  1) 2015: COMING SOON!
   2) 2016: COMING SOON!
   3) 2017: COMING SOON!
   4) 2018: COMING SOON!
@@ -63,6 +63,6 @@ NUMBER OF GRANTS FOUND IN EACH YEAR:
   
   (Note that for submission years prior to 2014, the XML tags are a little different for 990PFs, requiring a slightly different script. Additionally, I'm trying to fix a strange bug with the 2014 AWS index file. I will create a new script for those older years soon.)
   
-  For accuracy, note that for the above years, X% of grants given to US-based PCs were matched to US-based PCs in the BMF. Of a random sample of X matches, X% were correct when manually comparing 990PF grant data with the BMF. SUMMARY OF WHAT THIS ACCURACY MEANS.
+  ADD NOTE ON ACCURACY!
   
   Finally, we are currently working on developing a tool that will allow for easier exploration of this data rather than solely being in CSV format. More to come!
