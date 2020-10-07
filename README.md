@@ -2,7 +2,7 @@
 
 
 
-** NOTE THAT THIS IS AN EARLY EXPIRMENT. I WILL BE UPDATING/REFINING THIS FOR BETTER EFFICIENCY AND OPERATION IN THE NEAR FUTTURE **
+** NOTE THAT THIS IS AN EARLY EXPIRMENT. I WILL BE UPDATING/REFINING THIS FOR BETTER EFFICIENCY AND OPERATION IN THE NEAR FUTURE **
 
 
 Extracting grant data from e-filed 990PFs and connecting grants to the nonprofits receiving the grants
@@ -18,7 +18,9 @@ In 2016, the IRS partnered with Amazon Web Services (AWS) to make all e-filed 99
 You can read more about the AWS data here: https://docs.opendata.aws/irs-990/readme.html
 
 
-The Python code in this repository creates a CSV file for all grants listed on e-filed 990PFs submitted in a given year. Note that the problem solved by this code is that 990PFs do not list the EIN of grantees, and this code identifies and appends the EIN and other data to the grant data. Each file in this repository was created using this code. The results are similar to data created by IBM Watson's Causebot a few years ago. <https://data.world/causebot/grant-2010-to-2016> Watson's method was not documented, so this Python code allows for the re-creation of that data as well as updating for future filings. Note that due to the number of filings and process of matching grants to grantees, this code takes a while to run on a standard computer. (Also note that this script is not the most "Pythonic", and as I continue to experiment, I will update and clean the code.)
+The Python code in this repository creates a CSV file for all grants listed on e-filed 990PFs submitted in a given year. Note that the problem solved by this code is that 990PFs do not list the EIN of grantees, and this code identifies and appends the EIN and other data to the grant data. (Note that grant data from 990 Schedule I filers is not addressed with this code. One benefit of 990 Schedule I data is that there is an input field for EINs, which simplifies the process greatly. Future work will also pull in 990 Schedule I data.)
+
+Each file in this repository was created using this code. The results are similar to data created by IBM Watson's Causebot a few years ago. <https://data.world/causebot/grant-2010-to-2016> Watson's method was not documented, so this Python code allows for the re-creation of that data as well as updating for future filings. Note that due to the number of filings and process of matching grants to grantees, this code takes a while to run on a standard computer. (Also note that this script is not the most "Pythonic", and as I continue to experiment, I will update and clean the code.)
 
 
 WHAT THE PYTHON SCRIPT DOES GENERALLY:
@@ -69,6 +71,5 @@ NUMBER OF GRANTS FOUND IN EACH YEAR:
   
   (Note that for submission years prior to 2014, the XML tags are a little different for 990PFs, requiring a slightly different script. Additionally, I'm trying to fix a strange bug with the 2014 AWS index file. I will create a new script for those older years soon.)
   
-  ADD NOTE ON ACCURACY!
   
   Finally, we are currently working on developing a tool that will allow for easier exploration of this data rather than solely being in CSV format. More to come!
