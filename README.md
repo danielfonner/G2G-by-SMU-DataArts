@@ -1,4 +1,10 @@
 # G2G-by-SMU-DataArts
+
+
+
+** NOTE THAT THIS IS AN EARLY EXPIRMENT. I WILL BE UPDATING/REFINING THIS FOR BETTER EFFICIENCY AND OPERATION IN THE NEAR FUTTURE **
+
+
 Extracting grant data from e-filed 990PFs and connecting grants to the nonprofits receiving the grants
 
 Created by Daniel F. Fonner, Associate Director for Research, SMU DataArts (Southern Methodist University), dfonner@smu.edu, https://culturaldata.org/
