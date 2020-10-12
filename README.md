@@ -72,4 +72,4 @@ NUMBER OF GRANTS FOUND IN EACH YEAR:
   (Note that for submission years prior to 2014, the XML tags are a little different for 990PFs, requiring a slightly different script. Additionally, I'm trying to fix a strange bug with the 2014 AWS index file. I will create a new script for those older years soon.)
   
   
-  Finally, we are currently working on developing a tool that will allow for easier exploration of this data rather than solely being in CSV format. More to come!
+  More to come!
